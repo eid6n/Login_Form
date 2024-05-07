@@ -88,6 +88,23 @@ body{
     margin-bottom: 10px;
 }
 
+.textfield > a{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8F34F7;
+}
+
+a::after{
+    color: white;
+    text-decoration: none;
+
+}
+
 .textfield > input::placeholder {
     color: #f0ffff94;
 }
