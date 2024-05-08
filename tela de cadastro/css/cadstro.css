@@ -16,5 +16,72 @@ body{
     justify-content: center;
     align-items: center;
     background: #201b2c;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    margin-top: 60px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-image{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #60936F;
+    padding: 1rem;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #23545a;
     color: white;
+    padding: 3rem;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+}
+
+.login-button button{
+    border: none;
+    background-color: #4FAA6E;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover{
+    background-color: #87d5b1a4;
+}
+
+.login-button button > a{
+    text-decoration: none;
+    font-weight: 500px;
+    color: white;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #87d5b1a4;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
 }

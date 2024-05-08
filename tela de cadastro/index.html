@@ -8,57 +8,55 @@
 </head>
 <body>
     <div class="container">
-        <div class="img">
-            <img src="img/people-creating-robot-animate.svg" alt="">
+        <div class="form-image">
+            <img src="img/people-creating-robot-animate.svg"  alt="Robô">
         </div>
         <div class="form">
             <form action="#">
-
-            <div class="form-header">
-                <div class="title">
-                    <h1>Cadastre-se</h1>
-                </div>
-                
-                <div class="login-button">
-                    <button><a href="../index.html">Entrar</a></button>
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="../index.html">Entrar</a></button>
                     </div>
                 </div>
 
                 <div class="input-group">
                     <div class="input-box">
                         <label for="firstname">Primeiro Nome</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Digite seu primeiro nome" required minlength="5" maxlength="15" >
+                        <input required type="text" name="firstname" id="firstname" minlength="8" maxlength="15" placeholder="Digite seu primeiro nome" >
                     </div>
 
                     <div class="input-box">
                         <label for="lastname">Sobrenome</label>
-                        <input type="text" name="lastname" id="lastname"  placeholder="Digite seu sobrenome" required minlength="5" maxlength="25">
+                        <input required type="text" name="lastname" id="lastname" minlength="8" maxlength="20" placeholder="Digite seu sobrenome">
                     </div>
 
                     <div class="input-box">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+                        <label for="email">E-mail</label>
+                        <input required type="email" name="email" id="email" placeholder="Digite seu email">
                     </div>
 
                     <div class="input-box">
-                        <label for="number">Celular</label>
-                        <input type="tel" name="number" id="number" placeholder="(xx) xxxx-xxxx" required maxlength="15">
+                        <label for="celular">Celular</label>
+                        <input required type="tel" name="celular" id="celular" placeholder="(xx) xxxx-xxxx" maxlength="15">
                     </div>
 
                     <div class="input-box">
                         <label for="password">Senha</label>
-                        <input type="password" name="password" id="password" placeholder="Digite sua senha"  minlength="8" maxlength="12" required>
+                        <input required type="password" name="password" id="password" placeholder="Digite sus senha">
                     </div>
 
                     <div class="input-box">
                         <label for="confirmpassword">Confirme sua senha</label>
-                        <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirme sua senha"  minlength="8" maxlength="12" required>
+                        <input required type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirme sua senha">
                     </div>
                 </div>
 
                 <div class="gender-inputs">
                     <div class="gender-title">
-                        <h6>Genêro</h6>
+                        <h6>Gênero</h6>
                     </div>
                     <div class="gender-group">
                         <div class="gender-input">
@@ -80,7 +78,6 @@
                             <input type="radio" name="gender" id="none">
                             <label for="none">Prefiro não dizer</label>
                         </div>
-
                     </div>
                 </div>
 
