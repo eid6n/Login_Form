@@ -124,3 +124,13 @@ a::after{
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #5b00a5;
 }
+
+@media screen and (max-width: 1064px) {
+    .left-login{
+        display: none;
+    }
+
+    .right-login{
+        width: 100%;
+    }
+}
